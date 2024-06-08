@@ -1,10 +1,9 @@
-function App() {
+import Authorization from "./pages/Authorization"
 
+function App() {
   return (
     <>
-      <div className="bg-sky-500">
-
-      </div>
+      <Authorization />
     </>
   )
 }
